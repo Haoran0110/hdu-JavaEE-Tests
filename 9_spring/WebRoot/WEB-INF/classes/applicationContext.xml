@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+     <bean id="hw" class="com.Usb">
+        <property name="name" value="kobe"/>
+     </bean>
+    <bean id="uDisk" class="UDIsk"/>
+    <bean id="moveDisk" class="MDisk"/>
+    <bean id="c" class="Computer"/>
+      <property name='usb' ref="uDisk"></property>
+</beans>

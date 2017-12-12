@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">  
+<hibernate-configuration>  
+    <session-factory>  
+        <!--所用的数据库驱动  -->  
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>  
+        <!--所用的数据库登陆密码  -->  
+        <property name="hibernate.connection.password">zjygfxxyxs1220</property>  
+        <!--所用的数据库名称为test，根据实际更改 -->  
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/USER3333</property>  
+        <!--所用的数据库用户名  -->  
+        <property name="hibernate.connection.username">root</property>  
+        <!--所用的数据库方言，与所用数据库驱动一样，可以在网上查到，这里是mysql -->  
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>  
+        <property name="hibernate.format_sql">true</property>  
+        <!--如果是update表明Hibernate将保留原来的数据记录，插入时把新记录添加到已有的表，-->  
+        <!--如果是create，则总是创建新的表，如果原来数据库已有的这个表，则这个表的记录会被全部清洗  -->  
+        <property name="hibernate.hbm2ddl.auto">update</property>  
+        <mapping class="Testtable"/>
+    </session-factory>  
+</hibernate-configuration>  
