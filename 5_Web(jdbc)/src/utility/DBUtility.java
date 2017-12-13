@@ -9,7 +9,7 @@ public class DBUtility {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             return DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false",
-                    "root", "zjygfxxyxs1220");
+                    "root", "111");
         }catch(ClassNotFoundException e){
             e.printStackTrace();
         }catch(SQLException e){
