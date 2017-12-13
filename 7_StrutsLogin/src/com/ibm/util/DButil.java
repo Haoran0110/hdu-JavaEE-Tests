@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class DButil {
 	private final String DBURL ="jdbc:mysql://localhost:3306/ibm";
 	private final String DBUSER = "root";
-	private final String DBPASSWORD = "zjygfxxyxs1220";
+	private final String DBPASSWORD = "111";
 	private Connection con = null;
 	private PreparedStatement stmt = null;
 	private ResultSet rs = null;
