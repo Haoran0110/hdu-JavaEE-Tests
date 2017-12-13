@@ -10,7 +10,7 @@ public class BaseDao {
 	public static final String DRIVER = "com.mysql.jdbc.Driver";  
     public static final String URL = "jdbc:mysql://localhost:3306/mydatabase";  
     public static final String USER = "root";  
-    public static final String PASSWORD = "zjygfxxyxs1220";  
+    public static final String PASSWORD = "111";  
   
     Connection conn = null;  
     PreparedStatement pstmt = null;  
