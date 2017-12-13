@@ -7,7 +7,7 @@
         <!--所用的数据库驱动  -->  
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>  
         <!--所用的数据库登陆密码  -->  
-        <property name="hibernate.connection.password">zjygfxxyxs1220</property>  
+        <property name="hibernate.connection.password">111</property>  
         <!--所用的数据库名称为test，根据实际更改 -->  
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/USER3333</property>  
         <!--所用的数据库用户名  -->  
