@@ -19,7 +19,7 @@
 			value="jdbc:mysql://localhost:3306/sshtest">
 		</property>
 		<property name="username" value="root"></property>
-		<property name="password" value="zjygfxxyxs1220"></property>
+		<property name="password" value="111"></property>
 	</bean>
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
